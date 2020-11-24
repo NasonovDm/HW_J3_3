@@ -38,5 +38,6 @@ public class Mfu {
         new Thread(() -> mfu.print("A", 4)).start();
         new Thread(() -> mfu.print("B", 7)).start();
     }
+
     }
 }
